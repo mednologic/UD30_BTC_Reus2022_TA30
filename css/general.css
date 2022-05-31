@@ -1,0 +1,70 @@
+.h1_nom{
+    padding-top: 220px;
+}
+/*Características boton*/
+.button{
+    background-image: linear-gradient(to right, 
+    #162ba0 0%, 
+    #7281d2 50%, 
+    #162ba0 100%);
+    background-color: #2e518b;
+    border-radius: 50px;
+    color: white;
+    height:30px;
+    width:150px;
+}
+/*Características boton con el cursor encima*/
+.button:hover{
+    background-image: linear-gradient(
+        to top,
+        #7281d2 0%,
+        #162ba0 50%,
+        #7281d2 100%);
+    transition: 2s;
+}
+/*Características boton colores gradient*/      
+.btn-grad {
+    
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+  /*Contenedor principal*/
+.contenedor_main{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 5%;
+    padding-top: 1%;
+    padding-left: 1%;
+    box-shadow: 4px 4px #aca9a9;
+}
+/*Contenedor izquierda*/
+.contenedor_monigote{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    float:left;
+}
+.contenedor_botones{
+    margin: 5%;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    float:left;
+}
+
+/*Autodimensionado del monigote*/
+.monigote{
+    max-width: 100%;
+    height: auto;
+}
